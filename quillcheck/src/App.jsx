@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Assets from './components/Assets';
-import SelectToken from './components/SelectToken';
-import EvaluateReport from './components/EvaluateReport';
+import Assets from './Components/Assets';
+import SelectToken from './Components/SelectToken';
+import EvaluateReport from './Components/EvaluateReport';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const App = () => {

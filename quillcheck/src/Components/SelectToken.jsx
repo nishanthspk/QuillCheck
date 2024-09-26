@@ -41,13 +41,13 @@ const SelectToken = ({ onCheckClick, setSelectedToken, setTokenAddress }) => {
           type="text"
           value={inputValue}
           onChange={handleInputChange} // Handle input change
-          className="bg-white w-full h-12 rounded-[5px] text-black p-4"
+          className="bg-white lg:w-full lg:h-12 rounded-[5px]  text-black lg:p-4"
           placeholder="Enter token address"
         />
         <div className="flex justify-end rounded-[20px]">
           <button
             onClick={onCheckClick}
-            className="bg-[#007AFF] hover:bg-[#007AFF]/70 rounded-[5px] text-white p-2 px-6 ml-auto text-xl border-y border-y-[#86AFFF]"
+            className="bg-[#007AFF] hover:bg-[#007AFF]/70 rounded-[5px] text-white lg:p-2 lg:px-6 ml-auto lg:text-xl border-y border-y-[#86AFFF]"
           >
             Check
           </button>
