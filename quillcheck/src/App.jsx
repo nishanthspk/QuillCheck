@@ -18,7 +18,7 @@ const App = () => {
   };
 
   return (
-    <div className="h-screen bg-[url(C:\Users\nisha\Desktop\viteapp\quillcheck\src\assets\BG.png)] bg-cover bg-center bricolage-font lg:pb-6 bg-custom-bg jost flex justify-center items-center pt-3">
+    <div className="h-screen bg-custom-bg bg-cover bg-center bricolage-font lg:pb-6  jost flex justify-center items-center pt-3">
       <div className="lg:p-3 lg:space-y-5">
         <img className="h-[50px] w-[150px] lg:w-[200px] lg:h-[40px] mx-auto lg:mx-auto" src={Assets.QuillCheckLogo} alt="Quill Check Logo" />
 
